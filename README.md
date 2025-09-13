@@ -91,7 +91,7 @@ node index.js
 
 ## 📸 Frontend Screenshots
 
-### 🏠 1. Home Page(Includes a table to add new orders and then you can see the total numbers of orders below after clicking "Load All Orders")
+### 🏠 1. Home Page (Includes a table to add new orders and then you can see the total numbers of orders below after clicking "Load All Orders")
 - ![](./Screenshots/Frontend/Homepage.png)
 
 ### ➕ 2. Adding new Orders with Status
