@@ -146,12 +146,14 @@ node index.js
 
 ## 📡 API Endpoints
 ```bash
+......................................................
 | Method | Endpoint        | Description             |
 |--------|-----------------|-------------------------|
 | GET    | /api/orders     | Fetch all orders        |
 | POST   | /api/orders     | Create new order        |
 | PUT    | /api/orders/:id | Update order by ID      |
 | DELETE | /api/orders/:id | Delete order by ID      |
+|........|.................|.........................|
 ```
 ---
 
@@ -171,3 +173,12 @@ node index.js
 - 🖥️ Simple HTML/CSS/JS frontend demonstrates functionality clearly.
 - 💻 CLI client provides a terminal view for testing real-time updates.
 
+
+---
+
+##🚀 Future Improvements
+
+- 🔐 Add authentication for secure access.
+- 🐳 Dockerize the application for easier setup.
+- 🔍 Implement filtering & search in frontend.
+- 🧪 Add unit tests for backend.
