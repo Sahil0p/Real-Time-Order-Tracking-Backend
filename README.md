@@ -145,18 +145,16 @@ node index.js
 ---
 
 ## 📡 API Endpoints
-```bash
-......................................................
+
 | Method | Endpoint        | Description             |
 |--------|-----------------|-------------------------|
 | GET    | /api/orders     | Fetch all orders        |
 | POST   | /api/orders     | Create new order        |
 | PUT    | /api/orders/:id | Update order by ID      |
 | DELETE | /api/orders/:id | Delete order by ID      |
-|........|.................|.........................|
-```
----
 
+
+---
 ## 🧑‍💻 Usage
 - 🌐 Open the browser frontend to view all orders in realtime.
 - ➕ Add new orders via the form.
