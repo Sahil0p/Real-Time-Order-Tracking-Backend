@@ -103,7 +103,7 @@ node index.js
 ---
 
 ## 💻 CLI Client Screenshot
-### CLI client for terminal-based live updates
+### The CLI client will automatically display new orders, updates, or deletions in real time in your terminal
 - ![](./Screenshots/CLI/cli.png)
 
 ---
@@ -113,7 +113,7 @@ node index.js
 ### 📊 1. MongoDB Database (Order tables)
 - ![](./Screenshots/Backend/mongo.png)
 
-### 📥 2. Checking all orders in POSTMAN API Testing
+### 📥 2. Fetching all orders in POSTMAN API Testing
 - ![](./Screenshots/Backend/get.png)
 
 ### ➕ 3. Adding New Order Information
@@ -144,13 +144,24 @@ node index.js
 
 ---
 
+## 📡 API Endpoints
+```bash
+| Method | Endpoint        | Description             |
+|--------|-----------------|-------------------------|
+| GET    | /api/orders     | Fetch all orders        |
+| POST   | /api/orders     | Create new order        |
+| PUT    | /api/orders/:id | Update order by ID      |
+| DELETE | /api/orders/:id | Delete order by ID      |
+```
+---
+
 ## 🧑‍💻 Usage
 - 🌐 Open the browser frontend to view all orders in realtime.
 - ➕ Add new orders via the form.
 - ✏️ Update or delete orders using table buttons.
 - 🧪 Or open Postman to do CRUD Operation (adding, updating and deleting the orders)
 - 💻 Watch the CLI client to see live updates in terminal.
-- 📊 Check MongoDB to retrive the database.
+- 📊 Inspect MongoDB database for stored data.
 
 ---
 
