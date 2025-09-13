@@ -1,6 +1,6 @@
 # 📦 Real-Time-Order-Tracking-Backend
 
-A system where clients automatically receive updates whenever data in the database changes
+A system where clients automatically receive updates whenever data in the database changes.
 
 ## 👩‍🏫 Overview
 This project implements a **realtime order management system** using **Node.js**, **MongoDB**, and **Socket.IO**.  
