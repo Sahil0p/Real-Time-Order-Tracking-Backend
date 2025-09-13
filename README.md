@@ -1,4 +1,4 @@
-# 👩‍🏫 Real-Time-Order-Tracking-Backend
+# 📦 Real-Time-Order-Tracking-Backend
 
 A system where clients automatically receive updates whenever data in the database changes
 
@@ -127,17 +127,17 @@ node index.js
 ---
 
 ## 🏗️ Architecture
-### ⚙️ 1. Backend
+### ⚙️ Backend
 - Express.js routes handle CRUD operations.
 - MongoDB Change Streams watch the orders collection.
 - Socket.IO pushes changes to all connected clients in real time.
 
-### 🌐 2. Frontend
+### 🌐 Frontend
 - Fetches all orders on load.
 - Listens for real-time updates via Socket.IO.
 - Displays orders in a responsive table with colored status badges.
 
-### 💻 3. CLI Client (optional)
+### 💻 CLI Client (optional)
 - Connects to the same Socket.IO server.
 - Displays orders in the terminal.
 - Updates automatically when orders change.
