@@ -55,8 +55,8 @@ realtime-orders-project/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone <your-repo-url>
-cd realtime-orders-project
+git clone https://github.com/Sahil0p/Real-Time-Order-Tracking-Backend
+cd Real-Time-Order-Tracking-Backend
 ```
 
 ### 2️⃣ Backend Setup
