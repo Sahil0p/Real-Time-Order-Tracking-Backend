@@ -89,11 +89,41 @@ node index.js
 
 ---
 
-## Screenshots
+## Frontend Screenshots
 
-### Frontend
+### Home Page(Includes a table to add new orders and then you can see the total numbers of orders below after clicking "Load All Orders")
+- ![](./Screenshots/Frontend/Homepage.png)
 
+### Adding new Orders with Status
+- ![](./Screenshots/Frontend/Adding.png)
 
+### Updating the Status & Deleting the Order (With 2 Button NEXT/DELETE we can perform this operation)
+- ![](./Screenshots/Frontend/UpdatingDeleting.png)
+
+---
+
+## CLI Client Screenshot
+### CLI client for terminal-based live updates
+- ![](./Screenshots/CLI/cli.png)
+
+---
+
+## Backend Screenshots
+
+### MongoDB Database (Order tables)
+- ![](./Screenshots/Backend/mongo.png)
+
+### Checking all orders in POSTMAN API Testing
+- ![](./Screenshots/Backend/get.png)
+
+### Adding New Order Information
+- ![](./Screenshots/Backend/add.png)
+
+### Updating the existing order information by using - Order ID
+- ![](./Screenshots/Backend/update.png)
+
+### Deleting order information by using - Order ID
+- ![](./Screenshots/Backend/delete.png)
 ---
 
 ## Architecture
