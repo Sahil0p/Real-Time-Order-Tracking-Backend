@@ -58,3 +58,75 @@ realtime-orders-project/
 git clone <your-repo-url>
 cd realtime-orders-project
 ```
+
+### 2. Backend Setup
+```bash
+cd backend
+npm install
+```
+- Create a .env file:
+```bash
+PORT=5000
+MONGO_URI=<your_mongodb_connection_string>
+```
+- Start backend server:
+```bash
+npm run dev
+```
+
+### 3. Frontend Setup
+```bash
+cd frontend
+# Open index.html in your browser or use a live server extension
+```
+
+### 4. CLI Client setup (optional)
+```bash
+cd cli-client
+npm install
+node index.js
+```
+
+---
+
+## Screenshots
+
+### Frontend
+
+
+---
+
+## Architecture
+### 1. Backend
+- Express.js routes handle CRUD operations.
+- MongoDB Change Streams watch the orders collection.
+- Socket.IO pushes changes to all connected clients in real time.
+
+### 2. Frontend
+- Fetches all orders on load.
+- Listens for real-time updates via Socket.IO.
+- Displays orders in a responsive table with colored status badges.
+
+### 3. CLI Client (optional)
+- Connects to the same Socket.IO server.
+- Displays orders in the terminal.
+- Updates automatically when orders change.
+
+---
+
+## Usage
+- Open the browser frontend to view all orders in realtime.
+- Add new orders via the form.
+- Update or delete orders using table buttons.
+- Or open Postman to do CRUD Operation (adding, updating and deleting the orders)
+- Watch the CLI client to see live updates in terminal.
+- Check MongoDB to retrive the database.
+
+---
+
+## Why this approach
+- Node.js + Socket.IO enables efficient real-time updates.
+- MongoDB Change Streams allow event-driven notifications without polling.
+- Simple HTML/CSS/JS frontend demonstrates functionality clearly.
+- CLI client provides a terminal view for testing real-time updates.
+
