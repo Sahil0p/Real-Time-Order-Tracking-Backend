@@ -176,7 +176,7 @@ node index.js
 
 ---
 
-##🚀 Future Improvements
+## 🚀 Future Improvements
 
 - 🔐 Add authentication for secure access.
 - 🐳 Dockerize the application for easier setup.
