@@ -91,13 +91,13 @@ node index.js
 
 ## Frontend Screenshots
 
-### Home Page(Includes a table to add new orders and then you can see the total numbers of orders below after clicking "Load All Orders")
+### 1. Home Page(Includes a table to add new orders and then you can see the total numbers of orders below after clicking "Load All Orders")
 - ![](./Screenshots/Frontend/Homepage.png)
 
-### Adding new Orders with Status
+### 2. Adding new Orders with Status
 - ![](./Screenshots/Frontend/Adding.png)
 
-### Updating the Status & Deleting the Order (With 2 Button NEXT/DELETE we can perform this operation)
+### 3. Updating the Status & Deleting the Order (With 2 Button NEXT/DELETE we can perform this operation)
 - ![](./Screenshots/Frontend/UpdatingDeleting.png)
 
 ---
@@ -110,19 +110,19 @@ node index.js
 
 ## Backend Screenshots
 
-### MongoDB Database (Order tables)
+### 1. MongoDB Database (Order tables)
 - ![](./Screenshots/Backend/mongo.png)
 
-### Checking all orders in POSTMAN API Testing
+### 2. Checking all orders in POSTMAN API Testing
 - ![](./Screenshots/Backend/get.png)
 
-### Adding New Order Information
+### 3. Adding New Order Information
 - ![](./Screenshots/Backend/add.png)
 
-### Updating the existing order information by using - Order ID
+### 4. Updating the existing order information by using - Order ID
 - ![](./Screenshots/Backend/update.png)
 
-### Deleting order information by using - Order ID
+### 5. Deleting order information by using - Order ID
 - ![](./Screenshots/Backend/delete.png)
 ---
 
